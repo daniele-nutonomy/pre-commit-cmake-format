@@ -1,6 +1,6 @@
 - id: cmake-format
   name: Test CMake-format
-  entry: check-cmake-format.sh
+  entry: cmake-format -i
   language: system
-  files: CMakeLists.txt
+  files: '(CMakeLists.txt|.*\.cmake$)'
 
