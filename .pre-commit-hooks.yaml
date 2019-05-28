@@ -1,0 +1,6 @@
+- id: cmake-format
+  name: Test CMake-format
+  entry: run-cmake-format
+  language: bash
+  types: [cmake]
+
